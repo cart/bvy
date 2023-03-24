@@ -57,3 +57,9 @@ pub type Ew<'w, T> = EventWriter<'w, T>;
 pub type Er<'w, 's, T> = EventReader<'w, 's, T>;
 pub type Com<'w, 's> = Commands<'w, 's>;
 pub type Ass = AssetServer;
+pub type As<T> = Assets<T>;
+pub type H<T> = Handle<T>;
+pub type A<T> = Added<T>;
+pub type C<T> = Changed<T>;
+pub type L<'s, T> = Local<'s, T>;
+
