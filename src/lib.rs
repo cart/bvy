@@ -53,7 +53,13 @@ pub type R<'w, R> = Res<'w, R>;
 pub type Rm<'w, R> = ResMut<'w, R>;
 pub type W<T> = With<T>;
 pub type Wo<T> = Without<T>;
-pub type Ew<'w, 's, T> = EventWriter<'w, 's, T>;
+pub type Ew<'w, T> = EventWriter<'w, T>;
 pub type Er<'w, 's, T> = EventReader<'w, 's, T>;
 pub type Com<'w, 's> = Commands<'w, 's>;
 pub type Ass = AssetServer;
+pub type As<T> = Assets<T>;
+pub type H<T> = Handle<T>;
+pub type A<T> = Added<T>;
+pub type C<T> = Changed<T>;
+pub type L<'s, T> = Local<'s, T>;
+

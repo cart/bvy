@@ -1,6 +1,6 @@
 [package]
 name = "bvy"
-version = "0.7.0"
+version = "0.10.0"
 edition = "2021"
 description = "Just when you thought Bevy couldn't get more ergonomic, Bvy shows up to change the game."
 license = "MIT OR Apache-2.0"
@@ -8,4 +8,4 @@ readme = "README.md"
 repository = "https://github.com/cart/bvy"
 
 [dependencies]
-bevy = "0.7"
+bevy = "0.10.0"
