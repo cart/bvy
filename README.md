@@ -31,7 +31,7 @@ fn movement(time: R<Time>, mut transforms: Q<&mut Transform>) {
 
 ## Changes
 * `bevy::prelude::*` -> `bvy::*`
-* `Query<&Transform> -> `Q<&Transform>`
+* `Query<&Transform>` -> `Q<&Transform>`
 * `Res<Time>` -> `R<Time>`
 * `ResMut<Assets<Mesh>>` -> `Rm<Assets<Mesh>>`
 * `Commands` -> `Com`
